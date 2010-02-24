@@ -1,5 +1,5 @@
 //
-//  JFHotkeyManager.m
+//  JFHotkeyManager.h
 //  JFHotkeyManager
 //
 //  Created by Jason Frame on 23/02/2010.
