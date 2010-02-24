@@ -1,0 +1,243 @@
+TJFHotkeyManager
+v7
+r0
+t288635175.582748
+cCheck dependencies
+cProcessInfoPlistFile /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Info.plist JFHotkeyManager-Info.plist
+cCopyStringsFile /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/jason/dev/projects/JFHotkeyManager/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch.gch JFHotkeyManager_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/main.o /Users/jason/dev/projects/JFHotkeyManager/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManagerAppDelegate.o /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.o /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/MacOS/JFHotkeyManager normal x86_64
+cTouch /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B50402C00000000000000EE
+t1263550508
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004B5040250000000000003A54
+t1263550501
+s14932
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B448EEF00000000000005FF
+t1262784239
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004AC28394000000000000A5E0
+t1254261652
+s42464
+
+N/Users/jason/dev/projects/JFHotkeyManager/English.lproj/InfoPlist.strings
+c000000004B83FEDA000000000000002D
+t1266941658
+s45
+
+N/Users/jason/dev/projects/JFHotkeyManager/English.lproj/MainMenu.xib
+c000000004B83FEDA000000000002BBC3
+t1266941658
+s179139
+
+N/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.h
+c000000004B84018C0000000000000195
+t1266942348
+s405
+i<Cocoa/Cocoa.h>
+
+N/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m
+c000000004B84019F00000000000003B4
+t1266942367
+s948
+i<Carbon/Carbon.h>
+i"JFHotkeyManager.h"
+
+N/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.h
+c000000004B83FEDA0000000000000148
+t1266941658
+s328
+i<Cocoa/Cocoa.h>
+
+N/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m
+c000000004B83FEDA0000000000000185
+t1266941658
+s389
+i"JFHotkeyManagerAppDelegate.h"
+
+N/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager_Prefix.pch
+c000000004B83FEDA00000000000000A1
+t1266941658
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app
+t1266942375
+s102
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Info.plist
+t1266942368
+s910
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/MacOS/JFHotkeyManager
+t1266942375
+s16304
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/PkgInfo
+t1266942368
+s8
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1266942369
+s92
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj/MainMenu.nib
+t1266942370
+s34504
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.LinkFileList
+c000000004B8401A0000000000000019E
+t1266942368
+s414
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.o
+t1266942375
+s11752
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManagerAppDelegate.o
+t1266942374
+s21304
+
+N/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/main.o
+t1266942374
+s4992
+
+N/Users/jason/dev/projects/JFHotkeyManager/main.m
+c000000004B83FEDA00000000000000FA
+t1266941658
+s250
+i<Cocoa/Cocoa.h>
+
+N/var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch.gch
+t1266942374
+s54208272
+
+NJFHotkeyManager-Info.plist
+c000000004B83FEDA00000000000003EA
+t1266941658
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288635168#288635168#0(0"0(0#1#0"4300903632#0"0#
+
+CCompileC build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.o /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288635174.927429
+e288635175.432338
+r1
+xCompileC
+xbuild/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.o
+x/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m: In function 'hotkeyHandler':
+o/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:16: warning: unused variable 'hkm'
+o/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:18: warning: control reaches end of non-void function
+o/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m: In function '-[JFHotkeyManager bindKeyRef:withModifiers:toTarget:action:]':
+o/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:47: warning: unused variable 'kID'
+o/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:46: warning: unused variable 'kRef'
+lSLF07#2@67"Compile /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m288635174#288635175#0(627"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m: In function 'hotkeyHandler':/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:16: warning: unused variable 'hkm'/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:18: warning: control reaches end of non-void function/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m: In function '-[JFHotkeyManager bindKeyRef:withModifiers:toTarget:action:]':/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:47: warning: unused variable 'kID'/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m:46: warning: unused variable 'kRef'4(22@21"Unused variable 'hkm'288635175#90#95#0(6@59"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m288635167#16#0#16#0#19"unused variable '*'0(22@40"Control reaches end of non-void function288635175#185#114#0(6@59"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m288635167#18#0#18#0#40"control reaches end of non-void function0(22@21"Unused variable 'kID'288635175#436#95#0(6@59"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m288635167#47#0#47#0#19"unused variable '*'0(22@22"Unused variable 'kRef'288635175#531#96#0(6@59"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m288635167#46#0#46#0#19"unused variable '*'0(0#0#59"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m4300903632#1665"    cd /Users/jason/dev/projects/JFHotkeyManager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-generated-files.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-own-target-headers.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-all-target-headers.hmap -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-project-headers.hmap -F/Users/jason/dev/projects/JFHotkeyManager/build/Debug -I/Users/jason/dev/projects/JFHotkeyManager/build/Debug/include -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources/x86_64 -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources -include /var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch -c /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager.m -o /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.o0#
+
+CCompileC build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManagerAppDelegate.o /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288635174.763518
+e288635174.959881
+r1
+xCompileC
+xbuild/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManagerAppDelegate.o
+x/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m288635174#288635174#0(0"0(0#0#70"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m4300903632#1687"    cd /Users/jason/dev/projects/JFHotkeyManager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-generated-files.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-own-target-headers.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-all-target-headers.hmap -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-project-headers.hmap -F/Users/jason/dev/projects/JFHotkeyManager/build/Debug -I/Users/jason/dev/projects/JFHotkeyManager/build/Debug/include -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources/x86_64 -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources -include /var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch -c /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManagerAppDelegate.m -o /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManagerAppDelegate.o0#
+
+CCompileC build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/main.o /Users/jason/dev/projects/JFHotkeyManager/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288635174.762552
+e288635174.927324
+r1
+xCompileC
+xbuild/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/main.o
+x/Users/jason/dev/projects/JFHotkeyManager/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jason/dev/projects/JFHotkeyManager/main.m288635174#288635174#0(0"0(0#0#48"/Users/jason/dev/projects/JFHotkeyManager/main.m4300903632#1643"    cd /Users/jason/dev/projects/JFHotkeyManager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-generated-files.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-own-target-headers.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-all-target-headers.hmap -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-project-headers.hmap -F/Users/jason/dev/projects/JFHotkeyManager/build/Debug -I/Users/jason/dev/projects/JFHotkeyManager/build/Debug/include -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources/x86_64 -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources -include /var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch -c /Users/jason/dev/projects/JFHotkeyManager/main.m -o /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/jason/dev/projects/JFHotkeyManager/English.lproj/MainMenu.xib
+s288635168.239624
+e288635170.147304
+r1
+xCompileXIB
+x/Users/jason/dev/projects/JFHotkeyManager/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib288635168#288635170#0(0"0(0#0#68"/Users/jason/dev/projects/JFHotkeyManager/English.lproj/MainMenu.xib4300903632#344"    cd /Users/jason/dev/projects/JFHotkeyManager    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jason/dev/projects/JFHotkeyManager/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s288635168.238814
+e288635169.553707
+r1
+xCopyStringsFile
+x/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings288635168#288635169#0(0"0(0#0#73"/Users/jason/dev/projects/JFHotkeyManager/English.lproj/InfoPlist.strings4300903632#379"    cd /Users/jason/dev/projects/JFHotkeyManager    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Resources/English.lproj0#
+
+CLd /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/MacOS/JFHotkeyManager normal x86_64
+s288635175.432440
+e288635175.579590
+r1
+xLd
+x/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/MacOS/JFHotkeyManager
+xnormal
+xx86_64
+lSLF07#2@109"Link /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/MacOS/JFHotkeyManager288635175#288635175#0(0"0(0#0#0"4300903632#615"    cd /Users/jason/dev/projects/JFHotkeyManager    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jason/dev/projects/JFHotkeyManager/build/Debug -F/Users/jason/dev/projects/JFHotkeyManager/build/Debug -filelist /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/Objects-normal/x86_64/JFHotkeyManager.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/MacOS/JFHotkeyManager0#
+
+CProcessInfoPlistFile /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Info.plist JFHotkeyManager-Info.plist
+s288635168.208697
+e288635168.238726
+r1
+xProcessInfoPlistFile
+x/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Info.plist
+xJFHotkeyManager-Info.plist
+lSLF07#2@34"Process JFHotkeyManager-Info.plist288635168#288635168#0(0"0(0#0#68"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager-Info.plist4300903632#343"    cd /Users/jason/dev/projects/JFHotkeyManager    builtin-infoPlistUtility JFHotkeyManager-Info.plist -genpkginfo /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch.gch JFHotkeyManager_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s288635170.147491
+e288635174.762402
+r1
+xProcessPCH
+x/var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch.gch
+xJFHotkeyManager_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile JFHotkeyManager_Prefix.pch288635170#288635174#0(0"0(0#0#68"/Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager_Prefix.pch4300903632#1538"    cd /Users/jason/dev/projects/JFHotkeyManager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-generated-files.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-own-target-headers.hmap -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-all-target-headers.hmap -iquote /Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/JFHotkeyManager-project-headers.hmap -F/Users/jason/dev/projects/JFHotkeyManager/build/Debug -I/Users/jason/dev/projects/JFHotkeyManager/build/Debug/include -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources/x86_64 -I/Users/jason/dev/projects/JFHotkeyManager/build/JFHotkeyManager.build/Debug/JFHotkeyManager.build/DerivedSources -c /Users/jason/dev/projects/JFHotkeyManager/JFHotkeyManager_Prefix.pch -o /var/folders/jc/jciwULlBFTCtalnntbO8YE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/JFHotkeyManager_Prefix-hewurxfphhvjmmhijasrmybcfnyn/JFHotkeyManager_Prefix.pch.gch0#
+
+CTouch /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app
+s288635175.579673
+e288635175.582717
+r1
+xTouch
+x/Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app
+lSLF07#2@79"Touch /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app288635175#288635175#0(0"0(0#0#0"4300903632#145"    cd /Users/jason/dev/projects/JFHotkeyManager    /usr/bin/touch -c /Users/jason/dev/projects/JFHotkeyManager/build/Debug/JFHotkeyManager.app0#
+
