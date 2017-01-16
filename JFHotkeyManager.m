@@ -15,7 +15,7 @@ static OSStatus hotkeyHandler(EventHandlerCallRef hnd,
 	EventHotKeyID hkID;
 	GetEventParameter(evt, kEventParamDirectObject, typeEventHotKeyID, NULL, sizeof(hkID), NULL, &hkID);
 	
-	JFHotkeyManager *hkm = (JFHotkeyManager *)data;
+	JFHotkeyManager *hkm = (__bridge JFHotkeyManager *)data;
 	[hkm _dispatch:hkID.id];
 	
 	return noErr;
@@ -50,16 +50,12 @@ static void mapMod(NSString *s, NSUInteger mod) {
 		_target = target;
 		_action = selector;
 		
-		[_target retain];
-		
 	}
 	return self;
 }
 
 - (void)dealloc {
 	UnregisterEventHotKey(_ref);
-	[_target release];
-	[super dealloc];
 }
 
 - (void)invoke {
@@ -185,21 +181,11 @@ static void mapMod(NSString *s, NSUInteger mod) {
 		InstallApplicationEventHandler(&hotkeyHandler,
 									   1,
 									   &evtType,
-									   self,
+									   (__bridge void*)self,
 									   NULL);
 		
 	}
 	return self;
-}
-
-- (void)dealloc {
-	
-	// TODO: uninstall application event handler? couldn't find
-	// relevant method. didn't look for long though.
-	
-	[_hotkeys release];
-	[super dealloc];
-
 }
 
 - (JFHotKeyRef)bind:(NSString *)commandString
@@ -248,7 +234,6 @@ static void mapMod(NSString *s, NSUInteger mod) {
 												   action:selector];
 	
 	[_hotkeys setObject:hk forKey:[NSNumber numberWithUnsignedInt:keyID]];
-	[hk release];
 	
 	return keyID;
 

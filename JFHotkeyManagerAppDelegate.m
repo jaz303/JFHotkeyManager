@@ -1,13 +1,13 @@
 #import "JFHotkeyManagerAppDelegate.h"
 #import "JFHotkeyManager.h"
 
-@implementation JFHotkeyManagerAppDelegate
-
-@synthesize window;
+@implementation JFHotkeyManagerAppDelegate {
+    JFHotkeyManager *hkm;
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 
-	JFHotkeyManager *hkm = [[JFHotkeyManager alloc] init];
+	hkm = [[JFHotkeyManager alloc] init];
 	
 	// Bind using key code and modifiers
 	[hkm bindKeyRef:49 withModifiers:cmdKey + optionKey + shiftKey target:self action:@selector(hotkey1)];
