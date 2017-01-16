@@ -35,9 +35,9 @@ static void mapMod(NSString *s, NSUInteger mod) {
 
 
 @implementation __JFHotkey
-- (id)initWithHotkeyID:(NSUInteger)hotkeyID
-				keyRef:(NSUInteger)keyRef
-			 modifiers:(NSUInteger)modifiers
+- (id)initWithHotkeyID:(UInt32)hotkeyID
+				keyRef:(UInt32)keyRef
+			 modifiers:(UInt32)modifiers
 				target:(id)target
 				action:(SEL)selector {
 	if (self = [super init]) {
@@ -59,7 +59,9 @@ static void mapMod(NSString *s, NSUInteger mod) {
 }
 
 - (void)invoke {
-	[_target performSelector:_action withObject:nil];
+    IMP imp = [_target methodForSelector:_action];
+    void (*func)(id, SEL) = (void *)imp;
+    func(_target, _action);
 }
 @end
 
@@ -192,8 +194,8 @@ static void mapMod(NSString *s, NSUInteger mod) {
 	  target:(id)target
 	  action:(SEL)selector {
 	
-	NSUInteger keyRef		= 0;
-	NSUInteger modifiers	= 0;
+	UInt32 keyRef		= 0;
+	UInt32 modifiers	= 0;
 	
 	NSArray *bits = [[commandString lowercaseString] componentsSeparatedByString:@" "];
 	for (NSString *bit in bits) {
@@ -206,7 +208,7 @@ static void mapMod(NSString *s, NSUInteger mod) {
 		
 		code = [keyMap objectForKey:bit];
 		if (code != nil) {
-			keyRef = [code unsignedLongValue];
+			keyRef = [code unsignedIntValue];
 			continue;
 		}
 		
@@ -219,12 +221,12 @@ static void mapMod(NSString *s, NSUInteger mod) {
 
 }
 
-- (JFHotKeyRef)bindKeyRef:(NSUInteger)keyRef
-	 withModifiers:(NSUInteger)modifiers
+- (JFHotKeyRef)bindKeyRef:(UInt32)keyRef
+	 withModifiers:(UInt32)modifiers
 		    target:(id)target
 			action:(SEL)selector {
 	
-	NSUInteger keyID = _nextId;
+	UInt32 keyID = _nextId;
 	_nextId++;
 	
 	__JFHotkey *hk = [[__JFHotkey alloc] initWithHotkeyID:keyID
@@ -233,18 +235,18 @@ static void mapMod(NSString *s, NSUInteger mod) {
 												   target:target
 												   action:selector];
 	
-	[_hotkeys setObject:hk forKey:[NSNumber numberWithUnsignedInt:keyID]];
+	_hotkeys[@(keyID)] = hk;
 	
 	return keyID;
 
 }
 
 - (void)unbind:(JFHotKeyRef)keyRef {
-	[_hotkeys removeObjectForKey:[NSNumber numberWithUnsignedInt:keyRef]];
+	[_hotkeys removeObjectForKey:@(keyRef)];
 }
 
 - (void)_dispatch:(NSUInteger)hotkeyId {
-	[[_hotkeys objectForKey:[NSNumber numberWithUnsignedInt:hotkeyId]] invoke];
+	[[_hotkeys objectForKey:@(hotkeyId)] invoke];
 }
 
 @end

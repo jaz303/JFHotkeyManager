@@ -14,7 +14,7 @@ typedef NSUInteger JFHotKeyRef;
 @interface JFHotkeyManager : NSObject {
 
 	NSMutableDictionary		*_hotkeys;
-	NSUInteger				_nextId;
+	UInt32  				_nextId;
 	
 }
 
@@ -22,8 +22,8 @@ typedef NSUInteger JFHotKeyRef;
 			 target:(id)target
 			 action:(SEL)selector;
 
-- (JFHotKeyRef)bindKeyRef:(NSUInteger)keyRef
-			withModifiers:(NSUInteger)modifiers
+- (JFHotKeyRef)bindKeyRef:(UInt32)keyRef
+			withModifiers:(UInt32)modifiers
 				   target:(id)target
 				   action:(SEL)selector;
 
@@ -39,9 +39,9 @@ typedef NSUInteger JFHotKeyRef;
 	EventHotKeyRef	_ref;
 }
 
-- (id)initWithHotkeyID:(NSUInteger)hotkeyID
-				keyRef:(NSUInteger)keyRef
-			 modifiers:(NSUInteger)modifiers
+- (id)initWithHotkeyID:(UInt32)hotkeyID
+				keyRef:(UInt32)keyRef
+			 modifiers:(UInt32)modifiers
 				target:(id)target
 				action:(SEL)selector;
 
