@@ -26,11 +26,11 @@ static NSMutableDictionary *keyMap;
 static NSMutableDictionary *modMap;
 
 static void mapKey(NSString *s, NSUInteger key) {
-	[keyMap setObject:[NSNumber numberWithUnsignedInt:key] forKey:s];
+    keyMap[s] = @(key);
 }
 
 static void mapMod(NSString *s, NSUInteger mod) {
-	[modMap setObject:[NSNumber numberWithUnsignedInt:mod] forKey:s];
+    modMap[s] = @(mod);
 }
 
 
