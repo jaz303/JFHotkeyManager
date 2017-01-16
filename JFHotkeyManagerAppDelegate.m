@@ -13,7 +13,7 @@
 	[hkm bindKeyRef:49 withModifiers:cmdKey + optionKey + shiftKey target:self action:@selector(hotkey1)];
 	
 	// Bind using command string
-	[hkm bind:@"ctrl shift up" target:self action:@selector(hotkey2)];
+	[hkm bind:@"cmd shift up" target:self action:@selector(hotkey2)];
 	
 }
 
