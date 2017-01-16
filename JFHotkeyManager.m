@@ -200,13 +200,13 @@ static void mapMod(NSString *s, NSUInteger mod) {
 	NSArray *bits = [[commandString lowercaseString] componentsSeparatedByString:@" "];
 	for (NSString *bit in bits) {
 		
-		NSNumber *code = [modMap objectForKey:bit];
+		NSNumber *code = modMap[bit];
 		if (code != nil) {
-			modifiers += [code unsignedLongValue];
+			modifiers += [code unsignedIntValue];
 			continue;
 		}
 		
-		code = [keyMap objectForKey:bit];
+		code = keyMap[bit];
 		if (code != nil) {
 			keyRef = [code unsignedIntValue];
 			continue;
@@ -246,7 +246,7 @@ static void mapMod(NSString *s, NSUInteger mod) {
 }
 
 - (void)_dispatch:(NSUInteger)hotkeyId {
-	[[_hotkeys objectForKey:@(hotkeyId)] invoke];
+	[_hotkeys[@(hotkeyId)] invoke];
 }
 
 @end
