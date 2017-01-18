@@ -1,9 +1,7 @@
 #import <Cocoa/Cocoa.h>
 
-@interface JFHotkeyManagerAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *window;
-}
+@interface JFHotkeyManagerAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSWindow *window;
 
 @end
